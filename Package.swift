@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "tree-sitter-sql",
+    name: "TreeSitterSQL",
     platforms: [.macOS(.v10_13), .iOS(.v11)],
     products: [
-        .library(name: "tree-sitter-sql", targets: ["tree-sitter-sql"]),
+        .library(name: "TreeSitterSQL", targets: ["TreeSitterSQL"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "tree-sitter-sql",
+        .target(name: "TreeSitterSQL",
                 path: ".",
                 exclude: [
                     "README.md",
